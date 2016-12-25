@@ -1,0 +1,46 @@
+about sinbo .01 written by stateq2
+
+I am a novice programmer, and this is my very first SDL game 
+(not nearly a game.....yet).  So if the code looks like a n00b wrote it,
+that's because a n00b DID write it.  I need help w/ it, and this release
+is just to put it on the net so i can get some help, like how to control 
+the framerate (cause the ball moves at warp speed).  
+
+#########
+CONTACT
+#########
+if you have ANY suggestions or help, email me at:
+stateq2@linuxwaves.com
+or
+stateq2@lycos.com
+
+credit goes to the ebook "Programming Linux Games", 
+by Loki Software, Inc. with John R. Hall, for getting
+me started w/ SDL.
+www.nostarch.com
+
+Sinbo is released under the GPL.  bla bla bla bla
+To see the license, read the file named "COPYING" in sinbo's 
+root directory.
+
+#################
+compiling
+#################
+To compile, you need SDL and SDL_image installed.
+www.libsdl.com
+
+use a terminal to go into sinbo's root directory, and type:
+
+gcc -o sinbo sinbo.c physics.c  -lSDL_image `sdl-config --cflags --libs`
+
+#################
+running
+#################
+in the root dir, type           ./sinbo
+
+for more options, type     ./sinbo --help
+
+#################
+controls
+#################
+Use your mouse to move the paddle.  To exit, press "Esc" or "q"
